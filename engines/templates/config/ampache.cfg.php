@@ -39,7 +39,7 @@ web_path = ""
 
 ; Hostname of your database
 ; DEFAULT: localhost
-database_hostname = "mysql.engines.internal"
+database_hostname = "_ENGINES_dbhost"
 
 ; Port to use when connecting to your database
 ; DEFAULT: none
@@ -47,17 +47,17 @@ database_port = ""
 
 ; Name of your ampache database
 ; DEFAULT: ampache
-database_name = "ampache"
+database_name = "_ENGINES_dbname"
 
 ; Username for your ampache database
 ; DEFAULT: ""
-database_username = "ampache"
+database_username = "_ENGINES_dbuser"
 
 ; Password for your ampache database, this can not be blank
 ; this is a 'forced' security precaution, the default value
 ; will not work
 ; DEFAULT: ""
-database_password = "ampache"
+database_password = "_ENGINES_dbpasswd"
 
 ; Cryptographic secret
 ; This MUST BE changed with your own secret key. Ampache-specific, just pick any random string you want.
@@ -360,7 +360,7 @@ notify = "true"
 ; License
 ; This turns on / off all licensing features on Ampache
 ; DEFAULT: false
-;licensing = "false"
+licensing = "false"
 
 ; This options will turn on/off Demo Mode
 ; If Demo mode is on you can not play songs or update your catalog
@@ -494,7 +494,7 @@ debug_level = 5
 ; the specified directory exists and your HTTP server has
 ; write access.
 ; DEFAULT: NULL
-;log_path = "/var/log/ampache"
+log_path = "/var/log/ampache"
 
 ; Log filename pattern
 ; This defines where the log file name pattern.
