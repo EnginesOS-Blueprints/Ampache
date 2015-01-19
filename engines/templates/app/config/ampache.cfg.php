@@ -616,3 +616,6 @@ refresh_limit = "60"
 ; Default is off because its very hard to detect if it failed
 ; to draw, or they failed to enter it.
 ; DEFAULT: false
+
+
+use_auth = "false"
